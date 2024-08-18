@@ -147,7 +147,7 @@ export default function Home() {
             </button>
           </form>
 
-          <p>Don't have an account? Sign up below.</p>
+          <p>Dont have an account? Sign up below.</p>
           <form onSubmit={handleSignUp}>
             <button type="submit" style={{ padding: '10px 20px', cursor: 'pointer' }} disabled={loading}>
               {loading ? 'Signing up...' : 'Sign up'}
